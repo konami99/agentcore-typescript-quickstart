@@ -1,0 +1,23 @@
+{
+  "name": "agentcore-typescript-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.69.0",
+    "@strands-agents/sdk": "^0.2.1",
+    "bedrock-agentcore": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
