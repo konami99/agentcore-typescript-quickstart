@@ -1,15 +1,16 @@
 {
   "name": "agentcore-typescript-quickstart",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/agent.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/agent.js",
+    "dev": "npx tsx --watch agent.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@opentelemetry/auto-instrumentations-node": "^0.69.0",
     "@strands-agents/sdk": "^0.2.1",
