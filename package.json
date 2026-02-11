@@ -14,7 +14,8 @@
   "dependencies": {
     "@opentelemetry/auto-instrumentations-node": "^0.69.0",
     "@strands-agents/sdk": "^0.2.1",
-    "bedrock-agentcore": "^0.2.0"
+    "bedrock-agentcore": "^0.2.0",
+    "openai": "^6.21.0"
   },
   "devDependencies": {
     "@types/node": "^25.2.2",
