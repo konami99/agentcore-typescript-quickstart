@@ -4,6 +4,7 @@ const localRuntimeUrl = 'http://localhost:8080/invocations';
 const prompt = 'Tell me a joke';
 const runtimeSessionId = randomUUID();
 
+// agentcore deploy --local
 const response = await fetch(localRuntimeUrl, {
   method: 'POST',
   headers: {
